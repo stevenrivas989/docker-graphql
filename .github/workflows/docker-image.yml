@@ -44,7 +44,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push sr98/docker-graphql:0.0.2
+        docker push sr98/docker-graphql:$NEW_VERSION
         docker push sr98/docker-graphql:latest
         
         
